@@ -1,0 +1,44 @@
+body {
+  margin: 0 auto;
+  background-color: #ccc;
+  text-align: center;
+}
+
+h1 {
+  color: #55b897;
+}
+
+p {
+  padding: 50px;
+}
+
+.container {
+  padding: 5%;
+  width: 60%;
+  font-family: Arial;
+  border: 1px double #9b9999;
+  text-align: center;
+  margin-left: 15%;
+  height: 50vh;
+  box-shadow: 10px 10px 7px #9b9999;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.btn-lg {
+  color: #ccc;
+  font-size: 18px;
+  height: 50px;
+  width: 120px;
+  background-color: #137e5a;
+  border: none;
+  box-shadow: 10px 10px 7px #9b9999;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
