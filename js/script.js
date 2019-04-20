@@ -13,7 +13,7 @@ function getJoke() {
     xhr.open('GET', url);
     xhr.addEventListener('load', function(){
       var response = JSON.parse(xhr.response);
-      paragraph.innerHTML = response.value.joke;
+      paragraph.innerHTML = response.value.joke || "Oops we cannot connect, try again later...";
     });
     xhr.send();
   }
